@@ -145,6 +145,7 @@ p { color: var(--muted); margin: 0 0 18px; }
   font-size: .79rem; font-weight: 600;
   padding: 6px 11px; border: 1px solid var(--border); border-radius: 100px;
 }
+.tags span:hover { background: var(--fuchsia); }
 .section-heading { max-width: 770px; margin-bottom: 34px; }
 .section-heading h2 { margin-bottom: 12px; }
 .section-note { margin-top: 28px; }

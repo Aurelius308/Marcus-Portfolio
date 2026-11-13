@@ -140,12 +140,12 @@ p { color: var(--muted); margin: 0 0 18px; }
 }
 .skills-panel h3, .contact-card h3 { margin-top: 0; }
 .tags { display: flex; flex-wrap: wrap; gap: 9px; margin: 21px 0; }
+.tags span:hover { background: var(--fuchsia); }
 .tags span {
   background: var(--surface-light); color: var(--snow);
   font-size: .79rem; font-weight: 600;
   padding: 6px 11px; border: 1px solid var(--border); border-radius: 100px;
 }
-.tags span:hover { background: var(--fuchsia); }
 .section-heading { max-width: 770px; margin-bottom: 34px; }
 .section-heading h2 { margin-bottom: 12px; }
 .section-note { margin-top: 28px; }

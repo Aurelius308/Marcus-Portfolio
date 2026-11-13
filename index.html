@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A portfolio of web development, digital design, and interactive media projects by Marcus A. Clontz.">
+  <title>Marcus A. Clontz | Creative & Technical Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Marcus Clontz, home">MC<span class="brand-dot">.</span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#web-development">Web Development</a>
+        <a href="#graphics">Graphics & Photography</a>
+        <a href="#games">Game & Multimedia</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="home" aria-labelledby="home-title">
+      <div class="container hero-layout">
+        <div>
+          <p class="eyebrow">Creative & technical portfolio</p>
+          <h1 id="home-title">Hi, I'm <span class="accent">Marcus.</span></h1>
+          <p class="hero-lead">I like working on websites and learning how to turn an idea into something people can actually use.</p>
+          <p class="hero-secondary">I made this portfolio to keep my web, design, and Unity projects together and show what I've been learning in class.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#web-development">Explore my work</a>
+            <a class="button button-secondary" href="#about">About me</a>
+          </div>
+        </div>
+        <div class="hero-panel" aria-label="Portfolio areas">
+          <div class="panel-top"><span class="panel-dot"></span><span class="panel-dot"></span><span class="panel-dot"></span></div>
+          <div class="panel-content">
+            <p class="panel-caption">Areas of focus</p>
+            <div class="panel-line"><span>01</span> Web development</div>
+            <div class="panel-line"><span>02</span> Digital design</div>
+            <div class="panel-line"><span>03</span> Interactive media</div>
+            <div class="panel-line"><span>04</span> Software development</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="about" aria-labelledby="about-title">
+      <div class="container split-layout">
+        <div>
+          <p class="eyebrow">A little about me</p>
+          <h2 id="about-title">About Me</h2>
+          <p>I'm studying Web & Digital Development and have spent several years working with networking, Linux, system testing, and technical troubleshooting. Along the way, I've become more interested in programming and building projects that people can actually use.</p>
+          <p>I like clean designs that are easy to understand. I would rather keep a website organized and functional than add extra effects that distract from the content.</p>
+          <h3>Career goals</h3>
+          <p>My goal is to move further into software and application development. I'm interested in improving my coding skills while learning more about accessible web experiences, AI-assisted development tools, and interactive technologies such as XR.</p>
+        </div>
+        <aside class="skills-panel" aria-labelledby="skills-title">
+          <h3 id="skills-title">Skills & tools</h3>
+          <div class="tags" aria-label="Skills">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive design</span>
+            <span>Python scripting</span><span>Linux</span><span>Unity basics</span>
+            <span>Technical testing</span><span>Troubleshooting</span><span>Documentation</span>
+          </div>
+          <p class="small-note">These are skills and topics I've used in coursework or technical work. I'm continuing to develop my programming experience.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="web-development" aria-labelledby="web-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">01 / Selected work</p>
+          <h2 id="web-title">Web Development</h2>
+          <p>Website and JavaScript projects I worked on for class.</p>
+        </div>
+        <div class="project-grid" id="web-projects"></div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="graphics" aria-labelledby="graphics-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">02 / Selected work</p>
+          <h2 id="graphics-title">Graphics & Photography</h2>
+          <p>Graphic design and website-planning projects, from Illustrator artwork to wireframes and a site map.</p>
+        </div>
+        <div class="project-grid" id="graphic-projects"></div>
+        <p class="small-note section-note">This section includes two Adobe Illustrator pieces and my Sentry Security website-planning work. I may add photography after choosing completed images.</p>
+      </div>
+    </section>
+
+    <section class="section" id="games" aria-labelledby="games-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">03 / Selected work</p>
+          <h2 id="games-title">Game & Multimedia</h2>
+          <p>My early Unity work and what I learned from trying out the editor.</p>
+        </div>
+        <div class="project-grid" id="game-projects"></div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-layout">
+        <div>
+          <p class="eyebrow">Get in touch</p>
+          <h2 id="contact-title">Contact</h2>
+          <p>Thanks for looking through my work. If you'd like to get in touch about a project or opportunity, feel free to email me.</p>
+          <p class="contact-location">Based in Colorado Springs, Colorado</p>
+          <!-- Contact email from the resume you supplied; change it here if you prefer another address. -->
+          <a class="button button-primary" href="mailto:Marcus.A.Clontz@gmail.com">Email me</a>
+        </div>
+        <div class="contact-card">
+          <h3>Looking ahead</h3>
+          <p>I'm continuing to build on what I've learned and explore new software development and digital design projects.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="copyright-year"></span> Marcus A. Clontz</span>
+      <span>Built with HTML, CSS & JavaScript</span>
+    </div>
+  </footer>
+
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-inner">
+      <div class="dialog-header">
+        <p class="eyebrow">Project details</p>
+        <button class="close-dialog" type="button" aria-label="Close project details">×</button>
+      </div>
+      <h2 id="dialog-title"></h2>
+      <img class="dialog-image" id="dialog-image" alt="">
+      <dl class="project-meta" id="dialog-meta"></dl>
+      <h3>Project synopsis</h3>
+      <p id="dialog-description"></p>
+      <p class="small-note" id="dialog-image-note"></p>
+      <details class="project-demo" id="dialog-demo" hidden>
+        <summary id="dialog-demo-label">Try the interactive registration form</summary>
+        <p class="small-note" id="dialog-demo-note">This is an included coursework demo.</p>
+        <iframe id="dialog-demo-frame" title="Interactive DMWT alumni event registration coursework demo" loading="lazy"></iframe>
+        <p><a id="dialog-demo-link" class="button button-secondary" href="#" target="_blank" rel="noopener">Open included demo in a new tab</a></p>
+      </details>
+    </div>
+  </dialog>
+</body>
+</html>

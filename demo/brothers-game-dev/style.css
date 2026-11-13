@@ -1,0 +1,219 @@
+/* for all of the pages */
+body {
+    background-color: black;
+    color: white;
+    font-family: helvetica, sans-serif;
+}
+
+header {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.head_logo {
+    height: 100px;
+}
+
+.navbar {
+    font-family: helvetica, sans-serif;
+    display: flex;
+    margin: auto;
+    font-size: 30px;
+    background-color: #f15025e6;
+    border-radius: 10px;
+    width: 80%;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0 0 20px #eb5e28;
+    
+}
+
+.navlist {
+    list-style-type: none;
+    display: flex;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: #ccc5b9;
+}
+
+hr {
+    background-color: #eb5e28;
+    border: none;
+    height: 3px;
+    box-shadow: 0 0 10px #eb5e28;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.list {
+    padding-top: 20px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.all_image {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.all_image figure {
+    margin: 0;
+}
+
+.all_image figure img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.all_image figcaption {
+    min-height: 40px;
+}
+
+footer {
+    background-color: #f15025e6;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #eb5e28;
+}
+
+/* home page */
+em {
+    color: #eb5e28;
+}
+
+#known_list_item {
+    list-style-type: none;
+    padding-top: 20px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+#home_image1, #home_image2 {
+    max-width: 50%;
+    flex: 1 1 300px;
+}
+
+/* about page */
+#value_list_item {
+    list-style-position: inside;
+    padding-top: 20px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* contact page */
+#email_image {
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+/* tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    border: 3px solid #df6a3c;
+}
+
+th {
+    background-color: #f15025e6;
+}
+
+tr:hover {
+    background-color: #eb5e28;
+}
+
+#build_image {
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+/* services */
+#packages_image {
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+#package_list_item {
+    list-style-position: inside;
+    padding-top: 20px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+/* Mobile viewing support for the embedded coursework preview. */
+@media (max-width: 760px) {
+  header, .navbar { width: 95%; }
+  .navbar { font-size: 17px; }
+  .navlist { width: 100%; gap: 12px; flex-wrap: wrap; padding: 10px; }
+  h1 { font-size: 35px; } h2 { font-size: 27px; width: 95%; }
+  p { font-size: 16px; } .all_image { gap: 20px; }
+  #home_image1, #home_image2 { max-width: 100%; }
+  .game_list, .package_list { overflow-x: auto; }
+  th, td { font-size: 14px; padding: 7px; }
+}

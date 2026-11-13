@@ -65,8 +65,8 @@ const projects = [
     "medium": "Unity editor / beginner game development",
     "contribution": "Individual work in Unity editor: basic scene creation, game object placement, and simple scripting to control game behavior",
     "image": "assets/unity-project.svg",
-    "imageAlt": "Placeholder graphic for the completed Unity project",
-    "imageNote": "Replace this with a screenshot of your completed Unity scene or an included short demonstration video.",
+    "imageAlt": "A screenshot of the game TankTerror created in Unity. A blue player tank faces off against an red enemy tank.",
+    "imageNote": "Screenshot of the finished game project in Unity.",
     "short": "My first steps working with Unity scenes and game objects.",
     "description": "These Unity exercises gave me a chance to try something different from building websites. I worked in the editor, created basic scenes, and practiced adding and working with game objects. I also started getting familiar with how scripts can affect what happens in a game. There were a lot of tools to learn, so I focused on getting comfortable with the basic workflow and testing what I made. The projects were pretty small, but they helped me understand how the different pieces of a game come together. I'd like to keep working with Unity and get more experience with the programming side of it."
   },
